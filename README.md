@@ -1,6 +1,6 @@
 # private-isu-terraform
 
-private-isuのネットワーク環境を構築するIaC
+[private-isu](https://github.com/catatsuy/private-isu)のネットワーク環境を構築するIaC
 
 ## 前提条件
 
