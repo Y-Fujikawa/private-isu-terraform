@@ -60,6 +60,7 @@ resource "aws_security_group" "private_isu_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
+  # https://github.com/hakatashi/benchmarker-webapp を使ってアクセスする予定なので開けておく
   ingress {
     description = "TCP 3000 Port from Benchmark"
     from_port   = 3000
